@@ -1,0 +1,104 @@
+name: Auto Generate Rules
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 10 */3 * *'
+
+jobs:
+  build:
+    name: Check and Release
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repo
+        uses: actions/checkout@v2
+
+      - name: Setup Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: '3.9'
+
+      - name: Install Dependencies
+        run: |
+          pip install -r requirements.txt
+
+      - name: Generate Apple Rule
+        run: |
+          python ruleset.py \
+            --source https://raw.githubusercontent.com/lhie1/Rules/master/Surge/Surge%203/Provider/Apple.list \
+            --source https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/Extra/Apple/Apple.list \
+            > Apple.list
+
+      - name: Generate China Rule
+        run: |
+          python ruleset.py \
+            --source https://raw.githubusercontent.com/lhie1/Rules/master/Surge/Surge%203/Provider/Domestic.list \
+            --exclude DOMAIN-SUFFIX,ip.sb \
+            > China.list
+
+      - name: Generate Global Rule
+        run: |
+          python ruleset.py \
+            --source https://raw.githubusercontent.com/lhie1/Rules/master/Surge/Surge%203/Provider/Proxy.list \
+            > Global.list
+
+      - name: Generate Media Rule
+        run: |
+          python ruleset.py \
+            --source https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/StreamingMedia/Streaming.list \
+            > Media.list
+
+      - name: Generate MediaCN Rule
+        run: |
+          python ruleset.py \
+            --source https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/StreamingMedia/StreamingCN.list \
+            > MediaCN.list
+
+      - name: Generate Microsoft Rule
+        run: |
+          python ruleset.py \
+            --source https://raw.githubusercontent.com/lhie1/Rules/master/Surge/Surge%203/Provider/Microsoft.list \
+            --source https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/Extra/Microsoft/OneDrive.list \
+            > Microsoft.list
+
+      - name: Generate PayPal Rule
+        run: |
+          python ruleset.py \
+            --source https://raw.githubusercontent.com/lhie1/Rules/master/Surge/Surge%203/Provider/PayPal.list \
+            > PayPal.list
+
+      - name: Generate Reject Rule
+        run: |
+          python ruleset.py --force-no-resolve \
+            --source https://raw.githubusercontent.com/lhie1/Rules/master/Surge/Surge%203/Provider/Reject.list \
+            > Reject.list
+
+      - name: Generate Telegram Rule
+        run: |
+          python ruleset.py \
+            --source https://raw.githubusercontent.com/lhie1/Rules/master/Surge/Surge%203/Provider/Telegram.list \
+            > Telegram.list
+
+      - name: Convert Clash Rules
+        run: |
+          for rule in *.list
+          do
+            python ruleset.py -c -s "file://$PWD/$rule" > "${rule%.*}.yaml"
+          done
+
+      - name: Push to Branch
+        run: |
+          git config --global user.name  'xjasonlyu'
+          git config --global user.email 'xjasonlyu@users.noreply.github.com'
+          git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${GITHUB_REPOSITORY}
+
+          git checkout release
+
+          mkdir -p Clash && cp -rf *.yaml Clash/
+          mkdir -p Surge && cp -rf *.list Surge/
+
+          git add Clash/*
+          git add Surge/*
+
+          git commit -m "Update $(date -u +%Y%m%d%H%M%S)"
+          git push origin main
