@@ -93,7 +93,9 @@ class RuleSet(OrderedSet):
             # print(f'unsupported type: {text}', file=sys.stderr)  # just warning
             return ()
 
-        if self.force_no_resolve and rule[0] in ('IP-CIDR', 'IP-CIDR6'):
+        if self.force_no_resolve \
+                and rule[0] in ('IP-CIDR', 'IP-CIDR6')\
+                and rule[-1] != 'no-resolve':
             rule.append('no-resolve')
 
         return tuple(rule)
