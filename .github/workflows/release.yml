@@ -12,6 +12,8 @@ jobs:
     steps:
       - name: Checkout Repo
         uses: actions/checkout@v2
+        with:
+          fetch-depth: 0
 
       - name: Setup Python
         uses: actions/setup-python@v2
@@ -100,5 +102,4 @@ jobs:
           git add Clash/*
           git add Surge/*
 
-          git commit -m "Update $(date -u +%Y%m%d%H%M%S)"
-          git push origin main
+          git commit -m "Update $(date -u +%Y%m%d%H%M%S)" && git push origin release || echo "nothing to commit"
