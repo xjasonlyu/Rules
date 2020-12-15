@@ -75,6 +75,12 @@ jobs:
             --source https://raw.githubusercontent.com/lhie1/Rules/master/Surge/Surge%203/Provider/Reject.list \
             > Reject.list
 
+      - name: Generate Steam Rule
+        run: |
+          python ruleset.py \
+            --source https://raw.githubusercontent.com/lhie1/Rules/master/Surge/Surge%203/Provider/Steam.list \
+            > Steam.list
+
       - name: Generate Telegram Rule
         run: |
           python ruleset.py \
