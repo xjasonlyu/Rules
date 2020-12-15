@@ -1,0 +1,5 @@
+#!name=Ali DoH
+#!desc=Enable Ali DNS over HTTPs(DoH).
+
+[General]
+doh-server = https://dns.alidns.com/dns-query
