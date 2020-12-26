@@ -42,6 +42,7 @@ jobs:
         run: |
           python ruleset.py \
             --source https://raw.githubusercontent.com/lhie1/Rules/master/Surge/Surge%203/Provider/Proxy.list \
+            --source DOMAIN-KEYWORD,rarbg \
             > Global.list
 
       - name: Generate Media Rule
