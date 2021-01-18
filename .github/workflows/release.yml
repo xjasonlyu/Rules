@@ -1,6 +1,9 @@
 name: Auto Generate Rules
 
 on:
+  push:
+    branches:
+      - main
   workflow_dispatch:
   schedule:
     - cron: '0 10 */3 * *'
@@ -35,6 +38,7 @@ jobs:
         run: |
           python ruleset.py \
             --source https://raw.githubusercontent.com/lhie1/Rules/master/Surge/Surge%203/Provider/Domestic.list \
+            --source DOMAIN-KEYWORD,rrys \
             --exclude DOMAIN-SUFFIX,ip.sb \
             > China.list
 
