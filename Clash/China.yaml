@@ -267,5 +267,4 @@ payload:
   - DOMAIN-SUFFIX,zimuzu.tv
   - DOMAIN-SUFFIX,zmz002.com
   - IP-CIDR,1.255.62.0/24,no-resolve
-  - DOMAIN-SUFFIX,cn
   - DOMAIN-KEYWORD,rrys
