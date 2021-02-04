@@ -180,4 +180,6 @@ payload:
   - DOMAIN,dfp6rglgjqszk.cloudfront.net
   - DOMAIN-SUFFIX,googlevideo.com
   - DOMAIN-SUFFIX,youtube.com
+  - DOMAIN-SUFFIX,ytimg.com
   - DOMAIN,youtubei.googleapis.com
+  - DOMAIN,yt3.ggpht.com
