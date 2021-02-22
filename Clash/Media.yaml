@@ -116,6 +116,8 @@ payload:
   - DOMAIN,d349g9zuie06uo.cloudfront.net
   - DOMAIN-SUFFIX,mytvsuper.com
   - DOMAIN-SUFFIX,tvb.com
+  - DOMAIN-SUFFIX,naver.com
+  - DOMAIN-SUFFIX,smartmediarep.com
   - DOMAIN-SUFFIX,netflix.com
   - DOMAIN-SUFFIX,netflix.net
   - DOMAIN-SUFFIX,nflxext.com
