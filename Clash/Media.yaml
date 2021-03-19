@@ -80,6 +80,7 @@ payload:
   - DOMAIN-SUFFIX,hbogo.com
   - DOMAIN-SUFFIX,hbonow.com
   - DOMAIN-SUFFIX,hbomax.com
+  - DOMAIN-SUFFIX,hbomaxcdn.com
   - DOMAIN-SUFFIX,hbogoasia.com
   - DOMAIN-SUFFIX,hbogoasia.hk
   - DOMAIN,bcbolthboa-a.akamaihd.net
@@ -160,6 +161,8 @@ payload:
   - DOMAIN-SUFFIX,paramountplus.com
   - DOMAIN-SUFFIX,pplusstatic.com
   - DOMAIN,cbsi.live.ott.irdeto.com
+  - DOMAIN,cbsplaylistserver.aws.syncbak.com
+  - DOMAIN,cbsservice.aws.syncbak.com
   - DOMAIN-SUFFIX,pbs.org
   - DOMAIN-SUFFIX,phncdn.com
   - DOMAIN-SUFFIX,phprcdn.com
