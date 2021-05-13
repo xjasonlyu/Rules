@@ -49,6 +49,8 @@ payload:
   - DOMAIN-SUFFIX,bbci.co.uk
   - DOMAIN-KEYWORD,bbcfmt
   - DOMAIN-KEYWORD,uk-live
+  - DOMAIN-SUFFIX,app.biliintl.com
+  - DOMAIN,upos-bstar-mirrorakam.akamaized.net
   - DOMAIN-SUFFIX,dazn.com
   - DOMAIN-SUFFIX,dazn-api.com
   - DOMAIN-SUFFIX,dazndn.com
@@ -72,10 +74,6 @@ payload:
   - DOMAIN-SUFFIX,encoretvb.com
   - DOMAIN,edge.api.brightcove.com
   - DOMAIN,bcbolt446c5271-a.akamaihd.net
-  - DOMAIN-SUFFIX,fox.com
-  - DOMAIN-SUFFIX,foxdcg.com
-  - DOMAIN-SUFFIX,theplatform.com
-  - DOMAIN-SUFFIX,uplynk.com
   - DOMAIN-SUFFIX,hbo.com
   - DOMAIN-SUFFIX,hbogo.com
   - DOMAIN-SUFFIX,hbonow.com
@@ -83,17 +81,22 @@ payload:
   - DOMAIN-SUFFIX,hbomaxcdn.com
   - DOMAIN-SUFFIX,hbogoasia.com
   - DOMAIN-SUFFIX,hbogoasia.hk
-  - DOMAIN,bcbolthboa-a.akamaihd.net
-  - DOMAIN,players.brightcove.net
-  - DOMAIN,s3-ap-southeast-1.amazonaws.com
-  - DOMAIN,dai3fd1oh325y.cloudfront.net
+  - DOMAIN-KEYWORD,.hbogoasia.
   - DOMAIN,44wilhpljf.execute-api.ap-southeast-1.amazonaws.com
+  - DOMAIN,bcbolthboa-a.akamaihd.net
+  - DOMAIN,cf-images.ap-southeast-1.prod.boltdns.net
+  - DOMAIN,dai3fd1oh325y.cloudfront.net
   - DOMAIN,hboasia1-i.akamaihd.net
   - DOMAIN,hboasia2-i.akamaihd.net
   - DOMAIN,hboasia3-i.akamaihd.net
   - DOMAIN,hboasia4-i.akamaihd.net
   - DOMAIN,hboasia5-i.akamaihd.net
-  - DOMAIN,cf-images.ap-southeast-1.prod.boltdns.net
+  - DOMAIN,hboasialive.akamaized.net
+  - DOMAIN,hbogoprod-vod.akamaized.net
+  - DOMAIN,hbolb.onwardsmg.com
+  - DOMAIN,hbounify-prod.evergent.com
+  - DOMAIN,players.brightcove.net
+  - DOMAIN,s3-ap-southeast-1.amazonaws.com
   - DOMAIN-SUFFIX,5itv.tv
   - DOMAIN-SUFFIX,ocnttv.com
   - DOMAIN-SUFFIX,hulu.com
@@ -163,6 +166,7 @@ payload:
   - DOMAIN,cbsi.live.ott.irdeto.com
   - DOMAIN,cbsplaylistserver.aws.syncbak.com
   - DOMAIN,cbsservice.aws.syncbak.com
+  - DOMAIN,link.theplatform.com
   - DOMAIN-SUFFIX,pbs.org
   - DOMAIN-SUFFIX,phncdn.com
   - DOMAIN-SUFFIX,phprcdn.com
