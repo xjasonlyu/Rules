@@ -108,6 +108,18 @@ payload:
   - DOMAIN-SUFFIX,itv.com
   - DOMAIN-SUFFIX,itvstatic.com
   - DOMAIN,itvpnpmobile-a.akamaihd.net
+  - DOMAIN-SUFFIX,iq.com
+  - DOMAIN,intl.iqiyi.com
+  - DOMAIN,intl-rcd.iqiyi.com
+  - DOMAIN,intl-subscription.iqiyi.com
+  - IP-CIDR,103.5.34.153/32,no-resolve
+  - IP-CIDR,104.109.129.153/32,no-resolve
+  - IP-CIDR,110.238.107.47/32,no-resolve
+  - IP-CIDR,203.74.95.131/32,no-resolve
+  - IP-CIDR,203.74.95.139/32,no-resolve
+  - IP-CIDR,203.211.4.169/32,no-resolve
+  - IP-CIDR,203.211.4.193/32,no-resolve
+  - IP-CIDR,210.201.32.11/32,no-resolve
   - DOMAIN-SUFFIX,kktv.com.tw
   - DOMAIN-SUFFIX,kktv.me
   - DOMAIN,kktv-theater.kk.stream
