@@ -119,6 +119,7 @@ payload:
   - IP-CIDR,203.74.95.139/32,no-resolve
   - IP-CIDR,203.211.4.169/32,no-resolve
   - IP-CIDR,203.211.4.193/32,no-resolve
+  - IP-CIDR,210.201.32.8/32,no-resolve
   - IP-CIDR,210.201.32.11/32,no-resolve
   - DOMAIN-SUFFIX,kktv.com.tw
   - DOMAIN-SUFFIX,kktv.me
