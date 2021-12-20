@@ -3,6 +3,8 @@ payload:
   - DOMAIN-SUFFIX,ttvnw.net
   - DOMAIN-SUFFIX,twitch.tv
   - DOMAIN-SUFFIX,twitchcdn.net
+  - DOMAIN,radio.itunes.apple.com
+  - DOMAIN,tv.applemusic.com
   - DOMAIN-SUFFIX,deezer.com
   - DOMAIN-SUFFIX,dzcdn.net
   - DOMAIN-SUFFIX,joox.com
@@ -22,6 +24,7 @@ payload:
   - DOMAIN-KEYWORD,-spotify-com
   - DOMAIN-SUFFIX,tidal.com
   - DOMAIN-SUFFIX,himalaya.com
+  - DOMAIN-SUFFIX,overcast.fm
   - DOMAIN-SUFFIX,abema.io
   - DOMAIN-SUFFIX,abema.tv
   - DOMAIN-SUFFIX,ameba.jp
@@ -45,6 +48,7 @@ payload:
   - DOMAIN-KEYWORD,avoddashs
   - DOMAIN,linear.tv.apple.com
   - DOMAIN,play-edge.itunes.apple.com
+  - DOMAIN,uts-api.itunes.apple.com
   - DOMAIN-SUFFIX,bahamut.com.tw
   - DOMAIN-SUFFIX,gamer.com.tw
   - DOMAIN,gamer-cds.cdn.hinet.net
@@ -54,7 +58,11 @@ payload:
   - DOMAIN-KEYWORD,bbcfmt
   - DOMAIN-KEYWORD,uk-live
   - DOMAIN-SUFFIX,biliintl.com
+  - DOMAIN,apm-misaka.biliapi.net
+  - DOMAIN,p.bstarstatic.com
+  - DOMAIN,p-bstarstatic.akamaized.net
   - DOMAIN,upos-bstar-mirrorakam.akamaized.net
+  - DOMAIN,upos-bstar1-mirrorakam.akamaized.net
   - DOMAIN-SUFFIX,dazn.com
   - DOMAIN-SUFFIX,dazn-api.com
   - DOMAIN-SUFFIX,dazndn.com
@@ -116,14 +124,19 @@ payload:
   - DOMAIN,intl.iqiyi.com
   - DOMAIN,intl-rcd.iqiyi.com
   - DOMAIN,intl-subscription.iqiyi.com
+  - IP-CIDR,23.53.32.88/32,no-resolve
+  - IP-CIDR,23.211.15.99/32,no-resolve
   - IP-CIDR,103.5.34.153/32,no-resolve
   - IP-CIDR,104.109.129.153/32,no-resolve
   - IP-CIDR,110.238.107.47/32,no-resolve
   - IP-CIDR,118.26.32.178/32,no-resolve
   - IP-CIDR,203.74.95.131/32,no-resolve
   - IP-CIDR,203.74.95.139/32,no-resolve
+  - IP-CIDR,203.74.95.153/32,no-resolve
   - IP-CIDR,203.211.4.169/32,no-resolve
   - IP-CIDR,203.211.4.193/32,no-resolve
+  - IP-CIDR,210.71.227.200/32,no-resolve
+  - IP-CIDR,210.71.227.202/32,no-resolve
   - IP-CIDR,210.201.32.8/32,no-resolve
   - IP-CIDR,210.201.32.11/32,no-resolve
   - DOMAIN-SUFFIX,kktv.com.tw
@@ -133,6 +146,8 @@ payload:
   - DOMAIN,d3c7rimkq79yfu.cloudfront.net
   - DOMAIN-SUFFIX,litv.tv
   - DOMAIN,litvfreemobile-hichannel.cdn.hinet.net
+  - DOMAIN-SUFFIX,api.mgtv.com
+  - DOMAIN,mobileso.bz.mgtv.com
   - DOMAIN-SUFFIX,channel5.com
   - DOMAIN-SUFFIX,my5.tv
   - DOMAIN,d349g9zuie06uo.cloudfront.net
@@ -186,6 +201,7 @@ payload:
   - DOMAIN,cbsservice.aws.syncbak.com
   - DOMAIN,link.theplatform.com
   - DOMAIN-SUFFIX,pbs.org
+  - DOMAIN-SUFFIX,peacocktv.com
   - DOMAIN-SUFFIX,phncdn.com
   - DOMAIN-SUFFIX,phprcdn.com
   - DOMAIN-SUFFIX,pornhub.com

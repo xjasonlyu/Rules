@@ -207,6 +207,7 @@ DOMAIN-SUFFIX,gfw.press
 DOMAIN-SUFFIX,gfx.ms
 DOMAIN-SUFFIX,ggpht.com
 DOMAIN-SUFFIX,ghostnoteapp.com
+DOMAIN-SUFFIX,ghcr.io
 DOMAIN-SUFFIX,git.io
 DOMAIN-SUFFIX,gitbook.com
 DOMAIN-SUFFIX,globalsign.com
@@ -670,6 +671,9 @@ DOMAIN-SUFFIX,webrtc.org
 # > V2EX
 DOMAIN-SUFFIX,v2ex.com
 DOMAIN-KEYWORD,dlercloud
+# > exception
+DOMAIN-SUFFIX,wheel-size.cn
+DOMAIN-SUFFIX,chalungu.cn
 # > Amazon
 IP-CIDR,13.32.0.0/16,no-resolve
 IP-CIDR,13.33.0.0/16,no-resolve
