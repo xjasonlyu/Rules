@@ -26,3 +26,7 @@ payload:
   - DOMAIN-SUFFIX,1drv.com
   - DOMAIN-SUFFIX,storage.live.com
   - DOMAIN,oneclient.sfx.ms
+  - DOMAIN-SUFFIX,teams.cdn.live.net
+  - DOMAIN-SUFFIX,teams.live.com
+  - DOMAIN-SUFFIX,teams.microsoft.com
+  - DOMAIN,teams.events.data.microsoft.com
