@@ -81,10 +81,14 @@ class RuleSet(OrderedSet):
             text = text[:offset]
 
         rule = [i.strip() for i in text.split(',')]
-        if len(rule) > 3:
+        if len(rule) > 4:
             raise RuleError(f'invalid rule: {text}')
+        elif len(rule) == 4:
+            if rule[-1] != 'no-resolve':
+                raise RuleError(f'invalid option: {text}')
+            rule.pop(2)
         elif len(rule) == 3 and rule[-1] != 'no-resolve':
-            raise RuleError(f'invalid option: {text}')
+            rule.pop(-1)
         elif rule[0] == 'RULE-SET':
             pass  # ignore ruleset
         elif re.match('^(http|https|file)://', rule[0]):
@@ -145,10 +149,14 @@ def generate(sources: Iterable[str],
 
 def main():
     parser = argparse.ArgumentParser(description='Ruleset Generator')
-    parser.add_argument('-s', '--source', action="append", help='set sources', required=True)
-    parser.add_argument('-e', '--exclude', action="append", help='set exclusions', default=[])
-    parser.add_argument('-c', '--is-clash', action='store_true', help='set to clash format')
-    parser.add_argument('--force-no-resolve', action='store_true', help='force set no resolve')
+    parser.add_argument('-s', '--source', action="append",
+                        help='set sources', required=True)
+    parser.add_argument('-e', '--exclude', action="append",
+                        help='set exclusions', default=[])
+    parser.add_argument('-c', '--is-clash',
+                        action='store_true', help='set to clash format')
+    parser.add_argument('--force-no-resolve',
+                        action='store_true', help='force set no resolve')
     args = parser.parse_args()
 
     sys.stdout.write(generate(args.source,
