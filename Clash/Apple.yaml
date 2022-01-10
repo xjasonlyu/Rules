@@ -27,4 +27,6 @@ payload:
   - DOMAIN-SUFFIX,appstore.com
   - DOMAIN-SUFFIX,icloud.com.cn
   - DOMAIN-KEYWORD,apple.com.akadns.net
+  - DOMAIN-KEYWORD,apple.com.edgekey.net
+  - DOMAIN-KEYWORD,apple-support.akadns.net
   - DOMAIN-KEYWORD,icloud.com.akadns.net
