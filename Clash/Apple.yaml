@@ -1,4 +1,6 @@
 payload:
+  - DOMAIN-KEYWORD,apple.com.akadns.net
+  - DOMAIN-KEYWORD,icloud.com.akadns.net
   - DOMAIN-SUFFIX,aaplimg.com
   - DOMAIN-SUFFIX,apple.co
   - DOMAIN-SUFFIX,apple.com
@@ -26,7 +28,5 @@ payload:
   - DOMAIN-SUFFIX,apple.com.cn
   - DOMAIN-SUFFIX,appstore.com
   - DOMAIN-SUFFIX,icloud.com.cn
-  - DOMAIN-KEYWORD,apple.com.akadns.net
   - DOMAIN-KEYWORD,apple.com.edgekey.net
   - DOMAIN-KEYWORD,apple-support.akadns.net
-  - DOMAIN-KEYWORD,icloud.com.akadns.net

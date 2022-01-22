@@ -1,8 +1,10 @@
 payload:
+  - DOMAIN-SUFFIX,ext-twitch.tv
   - DOMAIN-SUFFIX,jtvnw.net
   - DOMAIN-SUFFIX,ttvnw.net
   - DOMAIN-SUFFIX,twitch.tv
   - DOMAIN-SUFFIX,twitchcdn.net
+  - DOMAIN-SUFFIX,twitch-ext.rootonline.de
   - DOMAIN,radio.itunes.apple.com
   - DOMAIN,tv.applemusic.com
   - DOMAIN-SUFFIX,deezer.com
