@@ -30,14 +30,16 @@ jobs:
       - name: Generate Apple Rule
         run: |
           python ruleset.py \
-            --source https://raw.githubusercontent.com/lhie1/Rules/master/Surge/Surge%203/Provider/Apple.list \
+            --source https://raw.githubusercontent.com/eHpo1/Rules/master/Surge4/Ruleset/Apple_CDN.list                  \
+            --source https://raw.githubusercontent.com/eHpo1/Rules/master/Surge4/Ruleset/Apple_API.list                  \
+            --source https://raw.githubusercontent.com/dler-io/Rules/master/Surge/Surge%203/Provider/Apple.list          \
             --source https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/Extra/Apple/Apple.list \
             > Apple.list
 
       - name: Generate China Rule
         run: |
           python ruleset.py \
-            --source https://raw.githubusercontent.com/lhie1/Rules/master/Surge/Surge%203/Provider/Domestic.list \
+            --source https://raw.githubusercontent.com/dler-io/Rules/master/Surge/Surge%203/Provider/Domestic.list \
             --exclude DOMAIN-SUFFIX,cn \
             --exclude DOMAIN-SUFFIX,ip.sb \
             > China.list
@@ -45,7 +47,7 @@ jobs:
       - name: Generate Global Rule
         run: |
           python ruleset.py \
-            --source https://raw.githubusercontent.com/lhie1/Rules/master/Surge/Surge%203/Provider/Proxy.list \
+            --source https://raw.githubusercontent.com/dler-io/Rules/master/Surge/Surge%203/Provider/Proxy.list \
             --source DOMAIN-KEYWORD,rarbg \
             --source DOMAIN-SUFFIX,cdn.jsdelivr.net \
             > Global.list
@@ -65,33 +67,34 @@ jobs:
       - name: Generate Microsoft Rule
         run: |
           python ruleset.py \
-            --source https://raw.githubusercontent.com/lhie1/Rules/master/Surge/Surge%203/Provider/Microsoft.list \
+            --source https://raw.githubusercontent.com/dler-io/Rules/master/Surge/Surge%203/Provider/Microsoft.list             \
+            --source https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Microsoft/Microsoft.list  \
             --source https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/Extra/Microsoft/OneDrive.list \
-            --source https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/Extra/Microsoft/Teams.list \
+            --source https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/Extra/Microsoft/Teams.list    \
             > Microsoft.list
 
       - name: Generate PayPal Rule
         run: |
           python ruleset.py \
-            --source https://raw.githubusercontent.com/lhie1/Rules/master/Surge/Surge%203/Provider/PayPal.list \
+            --source https://raw.githubusercontent.com/dler-io/Rules/master/Surge/Surge%203/Provider/PayPal.list \
             > PayPal.list
 
       - name: Generate Reject Rule
         run: |
           python ruleset.py --force-no-resolve \
-            --source https://raw.githubusercontent.com/lhie1/Rules/master/Surge/Surge%203/Provider/Reject.list \
+            --source https://raw.githubusercontent.com/dler-io/Rules/master/Surge/Surge%203/Provider/Reject.list \
             > Reject.list
 
       - name: Generate Steam Rule
         run: |
           python ruleset.py \
-            --source https://raw.githubusercontent.com/lhie1/Rules/master/Surge/Surge%203/Provider/Steam.list \
+            --source https://raw.githubusercontent.com/dler-io/Rules/master/Surge/Surge%203/Provider/Steam.list \
             > Steam.list
 
       - name: Generate Telegram Rule
         run: |
           python ruleset.py \
-            --source https://raw.githubusercontent.com/lhie1/Rules/master/Surge/Surge%203/Provider/Telegram.list \
+            --source https://raw.githubusercontent.com/dler-io/Rules/master/Surge/Surge%203/Provider/Telegram.list \
             > Telegram.list
 
       - name: Convert Clash Rules
