@@ -148,8 +148,6 @@ payload:
   - DOMAIN,d3c7rimkq79yfu.cloudfront.net
   - DOMAIN-SUFFIX,litv.tv
   - DOMAIN,litvfreemobile-hichannel.cdn.hinet.net
-  - DOMAIN-SUFFIX,api.mgtv.com
-  - DOMAIN,mobileso.bz.mgtv.com
   - DOMAIN-SUFFIX,channel5.com
   - DOMAIN-SUFFIX,my5.tv
   - DOMAIN,d349g9zuie06uo.cloudfront.net
@@ -230,7 +228,14 @@ payload:
   - DOMAIN-SUFFIX,wetvinfo.com
   - IP-CIDR,150.109.28.51/32,no-resolve
   - DOMAIN-SUFFIX,googlevideo.com
+  - DOMAIN-SUFFIX,withyoutube.com
+  - DOMAIN-SUFFIX,youtu.be
   - DOMAIN-SUFFIX,youtube.com
+  - DOMAIN-SUFFIX,youtubeeducation.com
+  - DOMAIN-SUFFIX,youtubegaming.com
+  - DOMAIN-SUFFIX,youtubekids.com
+  - DOMAIN-SUFFIX,youtube-nocookie.com
+  - DOMAIN-SUFFIX,yt.be
   - DOMAIN-SUFFIX,ytimg.com
   - DOMAIN,youtubei.googleapis.com
   - DOMAIN,yt3.ggpht.com
