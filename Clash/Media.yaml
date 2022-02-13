@@ -5,8 +5,6 @@ payload:
   - DOMAIN-SUFFIX,twitch.tv
   - DOMAIN-SUFFIX,twitchcdn.net
   - DOMAIN-SUFFIX,twitch-ext.rootonline.de
-  - DOMAIN,radio.itunes.apple.com
-  - DOMAIN,tv.applemusic.com
   - DOMAIN-SUFFIX,deezer.com
   - DOMAIN-SUFFIX,dzcdn.net
   - DOMAIN-SUFFIX,joox.com
@@ -48,6 +46,7 @@ payload:
   - DOMAIN,d1v5ir2lpwr8os.cloudfront.net
   - DOMAIN,d27xxe7juh1us6.cloudfront.net
   - DOMAIN-KEYWORD,avoddashs
+  - DOMAIN,tv.applemusic.com
   - DOMAIN,linear.tv.apple.com
   - DOMAIN,play-edge.itunes.apple.com
   - DOMAIN,uts-api.itunes.apple.com
@@ -172,20 +171,8 @@ payload:
   - DOMAIN-SUFFIX,netflixdnstest7.com
   - DOMAIN-SUFFIX,netflixdnstest8.com
   - DOMAIN-SUFFIX,netflixdnstest9.com
+  - DOMAIN-KEYWORD,apiproxy-device-prod-nlb-
   - DOMAIN-KEYWORD,dualstack.apiproxy-
-  - DOMAIN-KEYWORD,dualstack.ichnaea-web-
-  - IP-CIDR,23.246.0.0/18,no-resolve
-  - IP-CIDR,37.77.184.0/21,no-resolve
-  - IP-CIDR,45.57.0.0/17,no-resolve
-  - IP-CIDR,64.120.128.0/17,no-resolve
-  - IP-CIDR,66.197.128.0/17,no-resolve
-  - IP-CIDR,108.175.32.0/20,no-resolve
-  - IP-CIDR,192.173.64.0/18,no-resolve
-  - IP-CIDR,198.38.96.0/19,no-resolve
-  - IP-CIDR,198.45.48.0/20,no-resolve
-  - IP-CIDR,34.210.42.111/32,no-resolve
-  - IP-CIDR,52.89.124.203/32,no-resolve
-  - IP-CIDR,54.148.37.5/32,no-resolve
   - DOMAIN-SUFFIX,dmc.nico
   - DOMAIN-SUFFIX,nicovideo.jp
   - DOMAIN-SUFFIX,nimg.jp

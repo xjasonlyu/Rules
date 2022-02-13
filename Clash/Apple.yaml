@@ -41,6 +41,7 @@ payload:
   - PROCESS-NAME,com.apple.geod
   - DOMAIN-SUFFIX,apple.com.cn
   - DOMAIN-SUFFIX,apple-livephotoskit.com
+  - DOMAIN-SUFFIX,applemusic.com
   - DOMAIN-SUFFIX,appstore.com
   - DOMAIN-SUFFIX,apzones.com
   - DOMAIN-SUFFIX,icloud.com.cn
