@@ -90,6 +90,7 @@ DOMAIN,uts-api.itunes.apple.com
 USER-AGENT,Anime*
 DOMAIN-SUFFIX,bahamut.com.tw
 DOMAIN-SUFFIX,gamer.com.tw
+DOMAIN,bahamut.akamaized.net
 DOMAIN,gamer-cds.cdn.hinet.net
 DOMAIN,gamer2-cds.cdn.hinet.net
 # > BBC iPlayer
@@ -250,6 +251,7 @@ DOMAIN-SUFFIX,netflixdnstest8.com
 DOMAIN-SUFFIX,netflixdnstest9.com
 DOMAIN-KEYWORD,apiproxy-device-prod-nlb-
 DOMAIN-KEYWORD,dualstack.apiproxy-
+# GEOIP,netflix,no-resolve
 # > niconico
 USER-AGENT,Niconico*
 DOMAIN-SUFFIX,dmc.nico
@@ -294,7 +296,7 @@ DOMAIN-SUFFIX,tiktok.com
 DOMAIN-SUFFIX,tik-tokapi.com
 DOMAIN-SUFFIX,tiktokcdn.com
 DOMAIN-SUFFIX,tiktokv.com
-DOMAIN-KEYWORD,-tiktokcdn-com
+DOMAIN-KEYWORD,tiktokcdn-
 # > TVer
 USER-AGENT,TVer-Release*
 DOMAIN-SUFFIX,tver.jp

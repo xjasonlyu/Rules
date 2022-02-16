@@ -52,6 +52,7 @@ payload:
   - DOMAIN,uts-api.itunes.apple.com
   - DOMAIN-SUFFIX,bahamut.com.tw
   - DOMAIN-SUFFIX,gamer.com.tw
+  - DOMAIN,bahamut.akamaized.net
   - DOMAIN,gamer-cds.cdn.hinet.net
   - DOMAIN,gamer2-cds.cdn.hinet.net
   - DOMAIN-SUFFIX,bbc.co.uk
@@ -203,7 +204,7 @@ payload:
   - DOMAIN-SUFFIX,tik-tokapi.com
   - DOMAIN-SUFFIX,tiktokcdn.com
   - DOMAIN-SUFFIX,tiktokv.com
-  - DOMAIN-KEYWORD,-tiktokcdn-com
+  - DOMAIN-KEYWORD,tiktokcdn-
   - DOMAIN-SUFFIX,tver.jp
   - DOMAIN-SUFFIX,viu.com
   - DOMAIN-SUFFIX,viu.tv
