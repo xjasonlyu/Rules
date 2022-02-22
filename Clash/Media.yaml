@@ -35,8 +35,9 @@ payload:
   - DOMAIN-SUFFIX,aiv-cdn.net
   - DOMAIN-SUFFIX,aiv-delivery.net
   - DOMAIN-SUFFIX,amazonvideo.com
-  - DOMAIN-SUFFIX,primevideo.com
   - DOMAIN-SUFFIX,media-amazon.com
+  - DOMAIN-SUFFIX,primevideo.com
+  - DOMAIN-SUFFIX,pv-cdn.net
   - DOMAIN,atv-ps.amazon.com
   - DOMAIN,fls-na.amazon.com
   - DOMAIN,avodmp4s3ww-a.akamaihd.net
@@ -162,16 +163,7 @@ payload:
   - DOMAIN-SUFFIX,nflximg.net
   - DOMAIN-SUFFIX,nflxso.net
   - DOMAIN-SUFFIX,nflxvideo.net
-  - DOMAIN-SUFFIX,netflixdnstest0.com
-  - DOMAIN-SUFFIX,netflixdnstest1.com
-  - DOMAIN-SUFFIX,netflixdnstest2.com
-  - DOMAIN-SUFFIX,netflixdnstest3.com
-  - DOMAIN-SUFFIX,netflixdnstest4.com
-  - DOMAIN-SUFFIX,netflixdnstest5.com
-  - DOMAIN-SUFFIX,netflixdnstest6.com
-  - DOMAIN-SUFFIX,netflixdnstest7.com
-  - DOMAIN-SUFFIX,netflixdnstest8.com
-  - DOMAIN-SUFFIX,netflixdnstest9.com
+  - DOMAIN-KEYWORD,netflixdnstest
   - DOMAIN-KEYWORD,apiproxy-device-prod-nlb-
   - DOMAIN-KEYWORD,dualstack.apiproxy-
   - DOMAIN-SUFFIX,dmc.nico
