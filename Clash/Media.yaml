@@ -77,6 +77,8 @@ payload:
   - DOMAIN-SUFFIX,discoveryplus.com
   - DOMAIN-SUFFIX,discoveryplus.in
   - DOMAIN-SUFFIX,dnitv.com
+  - DOMAIN,x-default-stgec.uplynk.com
+  - DOMAIN-KEYWORD,discovery.uplynk.com
   - DOMAIN-SUFFIX,bamgrid.com
   - DOMAIN-SUFFIX,disneyplus.com
   - DOMAIN-SUFFIX,disney-plus.net
