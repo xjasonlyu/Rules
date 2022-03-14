@@ -1,0 +1,5 @@
+#!name=Debug
+#!desc=Enable Debug Mode.
+
+[General]
+loglevel = debug
