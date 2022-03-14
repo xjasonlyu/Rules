@@ -1,5 +1,5 @@
 #!name=Ali DoH
-#!desc=Enable DNS over HTTPS (DoH) with Ali public DNS.
+#!desc=Enable DNS over HTTPS (DoH) with Ali Public DNS.
 
 [General]
 dns-server = system, 223.5.5.5, 223.6.6.6
