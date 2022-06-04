@@ -590,11 +590,11 @@ DOMAIN-SUFFIX,statics-marketingsites-wcus-ms-com.akamaized.net
 # NAME: Microsoft
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2022-02-11 16:03:15
-# PROCESS-NAME: 2
-# DOMAIN-SUFFIX: 417
-# USER-AGENT: 3
+# UPDATED: 2022-06-04 17:24:38
 # DOMAIN-KEYWORD: 4
+# DOMAIN-SUFFIX: 417
+# PROCESS-NAME: 2
+# USER-AGENT: 3
 # TOTAL: 426
 DOMAIN-SUFFIX,acompli.com
 DOMAIN-SUFFIX,akadns.net
@@ -606,8 +606,8 @@ DOMAIN-SUFFIX,officeppe.net
 DOMAIN-SUFFIX,omniroot.com
 DOMAIN-SUFFIX,public-trust.com
 DOMAIN-SUFFIX,wunderlist.com
-DOMAIN-KEYWORD,1drv
 DOMAIN-KEYWORD,microsoft
+DOMAIN-KEYWORD,1drv
 DOMAIN-KEYWORD,onedrive
 DOMAIN-KEYWORD,skydrive
 USER-AGENT,Microsoft*

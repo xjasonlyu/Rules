@@ -597,8 +597,8 @@ payload:
   - DOMAIN-SUFFIX,omniroot.com
   - DOMAIN-SUFFIX,public-trust.com
   - DOMAIN-SUFFIX,wunderlist.com
-  - DOMAIN-KEYWORD,1drv
   - DOMAIN-KEYWORD,microsoft
+  - DOMAIN-KEYWORD,1drv
   - DOMAIN-KEYWORD,onedrive
   - DOMAIN-KEYWORD,skydrive
   - PROCESS-NAME,onedrive
