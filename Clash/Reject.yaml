@@ -3664,6 +3664,7 @@ payload:
   - DOMAIN-SUFFIX,go-mpulse.net
   - DOMAIN-SUFFIX,good.ta80.com
   - DOMAIN-SUFFIX,googleadsserving.cn
+  - DOMAIN-SUFFIX,googleads.g.doubleclick.net
   - DOMAIN-SUFFIX,googlecommerce.com
   - DOMAIN-SUFFIX,googlesyndication.com
   - DOMAIN-SUFFIX,goolpter.com
