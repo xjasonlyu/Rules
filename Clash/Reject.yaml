@@ -8091,7 +8091,6 @@ payload:
   - DOMAIN-SUFFIX,zhidian3g.cn
   - DOMAIN-SUFFIX,zhifenjie.com
   - DOMAIN-SUFFIX,zhihei.com
-  - DOMAIN-SUFFIX,zhihu.xmcimg.com
   - DOMAIN-SUFFIX,zhiong.net
   - DOMAIN-SUFFIX,zhiyuanteam.com
   - DOMAIN-SUFFIX,zhiziyun.com
@@ -8201,15 +8200,20 @@ payload:
   - DOMAIN,rd.da.netease.com
   - DOMAIN,wr.da.netease.com
   - DOMAIN,yt-adp.nosdn.127.net
+  - DOMAIN,appcloud2.in.zhihu.com
   - DOMAIN,mqtt.zhihu.com
   - DOMAIN,sugar.zhihu.com
   - DOMAIN,zhihu-analytics.zhihu.com
   - DOMAIN,zhihu-web-analytics.zhihu.com
+  - DOMAIN,118.89.204.198
   - DOMAIN-SUFFIX,xdrig.com
+  - DOMAIN-SUFFIX,zhihu.xmcimg.com
   - IP-CIDR,39.107.15.115/32,no-resolve
   - IP-CIDR,47.89.59.182/32,no-resolve
   - IP-CIDR,103.49.209.27/32,no-resolve
+  - IP-CIDR,118.89.204.198/32,no-resolve
   - IP-CIDR,123.56.152.96/32,no-resolve
+  - IP-CIDR6,2402:4e00:1200:ed00:0:9089:6dac:96b6/128,no-resolve
   - IP-CIDR,61.160.200.223/32,no-resolve
   - IP-CIDR,61.160.200.242/32,no-resolve
   - IP-CIDR,61.160.200.252/32,no-resolve

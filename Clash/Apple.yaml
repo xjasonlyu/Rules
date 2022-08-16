@@ -38,6 +38,7 @@ payload:
   - DOMAIN-KEYWORD,apple.com.akadns.net
   - DOMAIN-KEYWORD,icloud.com.akadns.net
   - DOMAIN-SUFFIX,apple-mapkit.com
+  - DOMAIN-SUFFIX,apple.comscoreresearch.com
   - PROCESS-NAME,com.apple.geod
   - DOMAIN-SUFFIX,apple.com.cn
   - DOMAIN-SUFFIX,apple-livephotoskit.com

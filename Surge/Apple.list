@@ -47,6 +47,7 @@ DOMAIN-KEYWORD,apple.com.akadns.net
 DOMAIN-KEYWORD,icloud.com.akadns.net
 DOMAIN-SUFFIX,apple-mapkit.com
 # > Apple News
+DOMAIN-SUFFIX,apple.comscoreresearch.com
 # > Apple Maps
 PROCESS-NAME,com.apple.geod
 # Apple
