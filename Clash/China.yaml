@@ -1,4 +1,19 @@
 payload:
+  - DOMAIN-SUFFIX,abchina.com
+  - DOMAIN-SUFFIX,boc.cn
+  - DOMAIN-SUFFIX,citicbank.com
+  - DOMAIN-SUFFIX,ecitic.com
+  - DOMAIN-SUFFIX,ecitic.net
+  - DOMAIN-SUFFIX,ccb.com
+  - DOMAIN-SUFFIX,ccb.com.cn
+  - DOMAIN-SUFFIX,cebbank.com
+  - DOMAIN-SUFFIX,cmbchina.com
+  - DOMAIN-SUFFIX,cmbimg.com
+  - DOMAIN-SUFFIX,cmbt.cn
+  - DOMAIN-SUFFIX,mbcloud.com
+  - DOMAIN-SUFFIX,icbc.com.cn
+  - DOMAIN-SUFFIX,pingan.com
+  - DOMAIN-SUFFIX,pingan.com.cn
   - DOMAIN-KEYWORD,beplay
   - DOMAIN,cdp.cloud.unity3d.com
   - DOMAIN-SUFFIX,battle.net
@@ -30,10 +45,13 @@ payload:
   - IP-CIDR,129.226.0.0/16,no-resolve
   - IP-CIDR,183.128.0.0/11,no-resolve
   - IP-CIDR,183.131.48.0/20,no-resolve
+  - DOMAIN-SUFFIX,10010.com
+  - DOMAIN-SUFFIX,10086.cn
   - DOMAIN-SUFFIX,12306.cn
   - DOMAIN-SUFFIX,12306.com
   - DOMAIN-SUFFIX,126.net
   - DOMAIN-SUFFIX,163.com
+  - DOMAIN-SUFFIX,189.cn
   - DOMAIN-SUFFIX,360.cn
   - DOMAIN-SUFFIX,360.com
   - DOMAIN-SUFFIX,360buy.com
@@ -98,8 +116,6 @@ payload:
   - DOMAIN-SUFFIX,duoshuo.com
   - DOMAIN-SUFFIX,dytt8.net
   - DOMAIN-SUFFIX,easou.com
-  - DOMAIN-SUFFIX,ecitic.com
-  - DOMAIN-SUFFIX,ecitic.net
   - DOMAIN-SUFFIX,eudic.net
   - DOMAIN-SUFFIX,ewqcxz.com
   - DOMAIN-SUFFIX,feng.com
@@ -247,8 +263,6 @@ payload:
   - DOMAIN-SUFFIX,xdrig.com
   - DOMAIN-SUFFIX,xhostfire.com
   - DOMAIN-SUFFIX,xhscdn.com
-  - DOMAIN-SUFFIX,xiami.com
-  - DOMAIN-SUFFIX,xiami.net
   - DOMAIN-SUFFIX,xiaohongshu.com
   - DOMAIN-SUFFIX,xiaojukeji.com
   - DOMAIN-SUFFIX,xiaomi.com
@@ -274,3 +288,4 @@ payload:
   - DOMAIN-SUFFIX,zimuzu.tv
   - DOMAIN-SUFFIX,zmz002.com
   - IP-CIDR,1.255.62.0/24,no-resolve
+  - DOMAIN-SUFFIX,gov.cn
