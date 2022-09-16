@@ -664,6 +664,8 @@ payload:
   - DOMAIN-SUFFIX,webrtc.org
   - DOMAIN-SUFFIX,v2ex.com
   - DOMAIN-KEYWORD,dlercloud
+  - DOMAIN-SUFFIX,vikacg.com
+  - DOMAIN-SUFFIX,picjs.xyz
   - DOMAIN-SUFFIX,wheel-size.cn
   - DOMAIN-SUFFIX,chalungu.cn
   - IP-CIDR,13.32.0.0/16,no-resolve
