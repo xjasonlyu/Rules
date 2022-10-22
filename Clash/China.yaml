@@ -1,5 +1,6 @@
 payload:
   - DOMAIN-SUFFIX,abchina.com
+  - DOMAIN-SUFFIX,abchina.com.cn
   - DOMAIN-SUFFIX,boc.cn
   - DOMAIN-SUFFIX,citicbank.com
   - DOMAIN-SUFFIX,ecitic.com
@@ -60,6 +61,7 @@ payload:
   - DOMAIN-SUFFIX,51ym.me
   - DOMAIN-SUFFIX,58.com
   - DOMAIN-SUFFIX,8686c.com
+  - DOMAIN-SUFFIX,95516.com
   - DOMAIN-SUFFIX,abercrombie.com
   - DOMAIN-SUFFIX,acfun.tv
   - DOMAIN-SUFFIX,adobesc.com
