@@ -30,8 +30,8 @@ jobs:
       - name: Generate Apple Rule
         run: |
           python ruleset.py \
-            --source https://raw.githubusercontent.com/eHpo1/Rules/master/Surge4/Ruleset/Apple_CDN.list                  \
-            --source https://raw.githubusercontent.com/eHpo1/Rules/master/Surge4/Ruleset/Apple_API.list                  \
+            # --source https://raw.githubusercontent.com/eHpo1/Rules/master/Surge4/Ruleset/Apple_CDN.list                  \
+            # --source https://raw.githubusercontent.com/eHpo1/Rules/master/Surge4/Ruleset/Apple_API.list                  \
             --source https://raw.githubusercontent.com/dler-io/Rules/master/Surge/Surge%203/Provider/Apple.list          \
             --source https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/Extra/Apple/Apple.list \
             > Apple.list
