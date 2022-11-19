@@ -27,8 +27,11 @@ payload:
   - DOMAIN-SUFFIX,overcast.fm
   - DOMAIN-SUFFIX,abema.io
   - DOMAIN-SUFFIX,abema.tv
+  - DOMAIN-SUFFIX,abema-tv.com
   - DOMAIN-SUFFIX,ameba.jp
   - DOMAIN-SUFFIX,hayabusa.io
+  - DOMAIN-SUFFIX,hayabusa.media
+  - DOMAIN,api-abematv.bucketeer.jp
   - DOMAIN-KEYWORD,abematv.akamaized.net
   - DOMAIN-SUFFIX,c4assets.com
   - DOMAIN-SUFFIX,channel4.com
@@ -91,6 +94,10 @@ payload:
   - DOMAIN-SUFFIX,encoretvb.com
   - DOMAIN,edge.api.brightcove.com
   - DOMAIN,bcbolt446c5271-a.akamaihd.net
+  - DOMAIN-SUFFIX,ott.hinet.net
+  - DOMAIN-SUFFIX,hamivideo.hinet.net
+  - DOMAIN,hls-hichannel.cdn.hinet.net
+  - DOMAIN-KEYWORD,hamivideo.cdn.hinet.net
   - DOMAIN-SUFFIX,hbo.com
   - DOMAIN-SUFFIX,hbogo.com
   - DOMAIN-SUFFIX,hbonow.com
@@ -147,6 +154,7 @@ payload:
   - DOMAIN-SUFFIX,kktv.com.tw
   - DOMAIN-SUFFIX,kktv.me
   - DOMAIN,kktv-theater.kk.stream
+  - DOMAIN,theater-kktv.cdn.hinet.net
   - DOMAIN-SUFFIX,linetv.tw
   - DOMAIN,d3c7rimkq79yfu.cloudfront.net
   - DOMAIN-SUFFIX,litv.tv
