@@ -1,7 +1,7 @@
-certifi==2020.12.5
-chardet==3.0.4
-idna==2.10
-ordered-set==4.0.2
-requests==2.25.0
-ruamel.yaml==0.16.12
-urllib3==1.26.2
+certifi
+chardet
+idna
+ordered-set
+requests
+ruamel.yaml
+urllib3
