@@ -587,15 +587,122 @@ payload:
   - DOMAIN-SUFFIX,officecdn-microsoft-com.akamaized.net
   - DOMAIN-SUFFIX,statics-marketingsites-eus-ms-com.akamaized.net
   - DOMAIN-SUFFIX,statics-marketingsites-wcus-ms-com.akamaized.net
+  - DOMAIN,github-cloud.s3.amazonaws.com
+  - DOMAIN,vsmarketplacebadge.apphb.com
+  - DOMAIN-SUFFIX,21vbc.com
+  - DOMAIN-SUFFIX,21vbluecloud.com
+  - DOMAIN-SUFFIX,21vbluecloud.net
+  - DOMAIN-SUFFIX,aadrm.cn
   - DOMAIN-SUFFIX,acompli.com
+  - DOMAIN-SUFFIX,aggresmart.com
   - DOMAIN-SUFFIX,akadns.net
+  - DOMAIN-SUFFIX,apihub-internal.cn
+  - DOMAIN-SUFFIX,appserviceenvironment.cn
+  - DOMAIN-SUFFIX,atom.io
+  - DOMAIN-SUFFIX,azcrmc-test.cn
+  - DOMAIN-SUFFIX,azcrmc.cn
+  - DOMAIN-SUFFIX,azk8s.cn
+  - DOMAIN-SUFFIX,aznbcontent.cn
+  - DOMAIN-SUFFIX,aztask.cn
+  - DOMAIN-SUFFIX,azure-api.cn
+  - DOMAIN-SUFFIX,azure-apihub.cn
+  - DOMAIN-SUFFIX,azure-automation.cn
+  - DOMAIN-SUFFIX,azure-connectedvehicles-stage.cn
+  - DOMAIN-SUFFIX,azure-connectedvehicles.cn
+  - DOMAIN-SUFFIX,azure-devices-int.net
+  - DOMAIN-SUFFIX,azure-devices-provisioning.cn
+  - DOMAIN-SUFFIX,azure-devices.cn
+  - DOMAIN-SUFFIX,azure-devices.net
+  - DOMAIN-SUFFIX,azure-dns.cn
+  - DOMAIN-SUFFIX,azurecomm.net
+  - DOMAIN-SUFFIX,azurecr-test.cn
+  - DOMAIN-SUFFIX,azurecr.cn
+  - DOMAIN-SUFFIX,azurehdinsight.cn
+  - DOMAIN-SUFFIX,azureiotsuite.cn
+  - DOMAIN-SUFFIX,azuremresolver.cn
+  - DOMAIN-SUFFIX,azureprivatedns.cn
+  - DOMAIN-SUFFIX,azurerms.cn
+  - DOMAIN-SUFFIX,azuresandbox.cn
+  - DOMAIN-SUFFIX,b2clogin.cn
+  - DOMAIN-SUFFIX,b3itech.cn
+  - DOMAIN-SUFFIX,blueaggrestore.com
+  - DOMAIN-SUFFIX,bluecloudprod.com
+  - DOMAIN-SUFFIX,cegid-cloud.cn
+  - DOMAIN-SUFFIX,chinacloud-mobile.cn
+  - DOMAIN-SUFFIX,dependabot.com
+  - DOMAIN-SUFFIX,doom.com
+  - DOMAIN-SUFFIX,dynamics.cn
+  - DOMAIN-SUFFIX,elderscrolls.com
   - DOMAIN-SUFFIX,fabric.io
+  - DOMAIN-SUFFIX,ghcr.io
+  - DOMAIN-SUFFIX,git.io
+  - DOMAIN-SUFFIX,github.blog
+  - DOMAIN-SUFFIX,github.com
+  - DOMAIN-SUFFIX,github.community
+  - DOMAIN-SUFFIX,github.dev
+  - DOMAIN-SUFFIX,github.io
+  - DOMAIN-SUFFIX,githubapp.com
+  - DOMAIN-SUFFIX,githubassets.com
+  - DOMAIN-SUFFIX,githubhackathon.com
+  - DOMAIN-SUFFIX,githubpreview.dev
+  - DOMAIN-SUFFIX,githubstatus.com
+  - DOMAIN-SUFFIX,githubuniverse.com
+  - DOMAIN-SUFFIX,githubusercontent.com
+  - DOMAIN-SUFFIX,hdinsightservices.cn
   - DOMAIN-SUFFIX,livetileedge.dsx.mp.microsoft.com.edgekey.net
+  - DOMAIN-SUFFIX,lync.cn
+  - DOMAIN-SUFFIX,management-azure-devices-int.net
+  - DOMAIN-SUFFIX,management-azure-devices-provisioning.cn
+  - DOMAIN-SUFFIX,management-azure-devices.cn
+  - DOMAIN-SUFFIX,management-azure-devices.net
+  - DOMAIN-SUFFIX,mcchcdn.com
   - DOMAIN-SUFFIX,mesh.com
+  - DOMAIN-SUFFIX,mgmt-azure-api.cn
   - DOMAIN-SUFFIX,microsoft-tst.com
+  - DOMAIN-SUFFIX,microsoftazurestatus.cn
+  - DOMAIN-SUFFIX,microsoftmetrics.cn
+  - DOMAIN-SUFFIX,microsoftonline-i.cn
+  - DOMAIN-SUFFIX,microsoftonline-m-i.cn
+  - DOMAIN-SUFFIX,microsoftonline-m.cn
+  - DOMAIN-SUFFIX,microsoftonline-p-i.cn
+  - DOMAIN-SUFFIX,microsoftonline-p-i.net.cn
+  - DOMAIN-SUFFIX,microsoftonline-p.cn
+  - DOMAIN-SUFFIX,microsoftonline-p.net.cn
+  - DOMAIN-SUFFIX,microsoftonline.cn
+  - DOMAIN-SUFFIX,microsofttranslator-int.cn
+  - DOMAIN-SUFFIX,mncmsidlab1.cn
+  - DOMAIN-SUFFIX,msappproxy.cn
+  - DOMAIN-SUFFIX,msauthimages.cn
+  - DOMAIN-SUFFIX,mschcdn.com
+  - DOMAIN-SUFFIX,msftauthimages.cn
+  - DOMAIN-SUFFIX,msftcloudes.cn
+  - DOMAIN-SUFFIX,msidentity.cn
+  - DOMAIN-SUFFIX,msidlabpbmc.cn
+  - DOMAIN-SUFFIX,msn.net
+  - DOMAIN-SUFFIX,myoctocat.com
+  - DOMAIN-SUFFIX,npm.community
+  - DOMAIN-SUFFIX,npmjs.com
+  - DOMAIN-SUFFIX,npmjs.org
+  - DOMAIN-SUFFIX,office365-net.cn
+  - DOMAIN-SUFFIX,office365.cn
   - DOMAIN-SUFFIX,officeppe.net
+  - DOMAIN-SUFFIX,officewebapps.cn
   - DOMAIN-SUFFIX,omniroot.com
+  - DOMAIN-SUFFIX,onmschina.cn
+  - DOMAIN-SUFFIX,opensource.guide
+  - DOMAIN-SUFFIX,pbiwebcontent.cn
+  - DOMAIN-SUFFIX,powerapps.cn
+  - DOMAIN-SUFFIX,powerappsportals.cn
+  - DOMAIN-SUFFIX,powerautomate.cn
+  - DOMAIN-SUFFIX,powerbi.cn
   - DOMAIN-SUFFIX,public-trust.com
+  - DOMAIN-SUFFIX,repo.new
+  - DOMAIN-SUFFIX,thegithubshop.com
+  - DOMAIN-SUFFIX,trafficmanager.cn
+  - DOMAIN-SUFFIX,trustcenter.cn
+  - DOMAIN-SUFFIX,unity3dcloud.cn
+  - DOMAIN-SUFFIX,vscode-cdn.net
+  - DOMAIN-SUFFIX,windowsazurestatus.cn
   - DOMAIN-SUFFIX,wunderlist.com
   - DOMAIN-KEYWORD,microsoft
   - DOMAIN-KEYWORD,1drv
