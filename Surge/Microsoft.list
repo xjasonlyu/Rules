@@ -551,11 +551,10 @@ DOMAIN-SUFFIX,virtualearth.net
 DOMAIN-SUFFIX,vsallin.net
 DOMAIN-SUFFIX,wbd.ms
 DOMAIN-SUFFIX,what-fan.net
-DOMAIN-SUFFIX,windows
-DOMAIN-SUFFIX,windows-int.net
-DOMAIN-SUFFIX,windows-ppe.net
 DOMAIN-SUFFIX,windows.com
 DOMAIN-SUFFIX,windows.net
+DOMAIN-SUFFIX,windows-int.net
+DOMAIN-SUFFIX,windows-ppe.net
 DOMAIN-SUFFIX,windows.nl
 DOMAIN-SUFFIX,windows8.hk
 DOMAIN-SUFFIX,windowscommunity.net
@@ -690,6 +689,7 @@ DOMAIN-SUFFIX,trafficmanager.cn
 DOMAIN-SUFFIX,trustcenter.cn
 DOMAIN-SUFFIX,unity3dcloud.cn
 DOMAIN-SUFFIX,vscode-cdn.net
+DOMAIN-SUFFIX,windows
 DOMAIN-SUFFIX,windowsazurestatus.cn
 DOMAIN-SUFFIX,wunderlist.com
 DOMAIN-KEYWORD,microsoft
