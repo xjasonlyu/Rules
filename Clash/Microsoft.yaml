@@ -641,6 +641,7 @@ payload:
   - DOMAIN-SUFFIX,mcchcdn.com
   - DOMAIN-SUFFIX,mesh.com
   - DOMAIN-SUFFIX,mgmt-azure-api.cn
+  - DOMAIN-SUFFIX,microsoft-falcon.io
   - DOMAIN-SUFFIX,microsoft-tst.com
   - DOMAIN-SUFFIX,microsoftapp.net
   - DOMAIN-SUFFIX,microsoftazurestatus.cn
