@@ -644,6 +644,7 @@ payload:
   - DOMAIN-SUFFIX,microsoft-falcon.io
   - DOMAIN-SUFFIX,microsoft-tst.com
   - DOMAIN-SUFFIX,microsoftapp.net
+  - DOMAIN-SUFFIX,microsoftazuresponsorships.com
   - DOMAIN-SUFFIX,microsoftazurestatus.cn
   - DOMAIN-SUFFIX,microsoftmetrics.cn
   - DOMAIN-SUFFIX,microsoftonline-i.cn
