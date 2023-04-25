@@ -589,7 +589,7 @@ DOMAIN-SUFFIX,statics-marketingsites-wcus-ms-com.akamaized.net
 # NAME: Microsoft
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2023-04-07 14:47:36
+# UPDATED: 2023-04-25 02:08:29
 # DOMAIN: 2
 # DOMAIN-KEYWORD: 4
 # DOMAIN-SUFFIX: 660
@@ -701,10 +701,9 @@ DOMAIN-KEYWORD,skydrive
 USER-AGENT,Microsoft*
 USER-AGENT,OneDrive*
 USER-AGENT,OneDriveiOSApp*
-PROCESS-NAME,onedrive
-PROCESS-NAME,onedriveupdater
-# OneDrive
 PROCESS-NAME,OneDrive
+PROCESS-NAME,OneDriveUpdater
+# OneDrive
 DOMAIN,oneclient.sfx.ms
 # Microsoft Teams
 DOMAIN-SUFFIX,teams.cdn.live.net
