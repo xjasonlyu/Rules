@@ -3,13 +3,14 @@
 import argparse
 import re
 import sys
+from io import StringIO
 from typing import (Iterable,
                     Optional)
 from urllib.parse import urlparse
 
 import requests
 from ordered_set import OrderedSet
-from ruamel import yaml
+from ruamel.yaml import YAML
 
 ClashRuleTypes = (
     'DOMAIN', 'DOMAIN-SUFFIX', 'DOMAIN-KEYWORD',
@@ -134,13 +135,12 @@ def generate(sources: Iterable[str],
         rules.discard(i)
 
     if is_clash:
-        result = yaml.safe_dump(
-            data={
-                'payload': list(rules)
-            },
-            block_seq_indent=2,
-            default_flow_style=False,
-        )
+        with StringIO() as ss:
+            yaml = YAML(typ='safe', pure=True)
+            yaml.default_flow_style = False
+            yaml.indent(mapping=2, sequence=4, offset=2)
+            yaml.dump({'payload': list(rules)}, ss)
+            result = ss.getvalue()
     else:
         result = '\n'.join(rules)
 
