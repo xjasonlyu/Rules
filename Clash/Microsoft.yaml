@@ -655,6 +655,7 @@ payload:
   - DOMAIN-SUFFIX,microsoftonline-p.cn
   - DOMAIN-SUFFIX,microsoftonline-p.net.cn
   - DOMAIN-SUFFIX,microsoftonline.cn
+  - DOMAIN-SUFFIX,microsoftstart.com
   - DOMAIN-SUFFIX,microsofttranslator-int.cn
   - DOMAIN-SUFFIX,mncmsidlab1.cn
   - DOMAIN-SUFFIX,msappproxy.cn
@@ -677,6 +678,7 @@ payload:
   - DOMAIN-SUFFIX,powerautomate.cn
   - DOMAIN-SUFFIX,powerbi.cn
   - DOMAIN-SUFFIX,public-trust.com
+  - DOMAIN-SUFFIX,start.com
   - DOMAIN-SUFFIX,trafficmanager.cn
   - DOMAIN-SUFFIX,trustcenter.cn
   - DOMAIN-SUFFIX,unity3dcloud.cn

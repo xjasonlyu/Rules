@@ -589,13 +589,13 @@ DOMAIN-SUFFIX,statics-marketingsites-wcus-ms-com.akamaized.net
 # NAME: Microsoft
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2023-10-07 14:17:48
+# UPDATED: 2023-10-31 02:09:07
 # DOMAIN: 2
 # DOMAIN-KEYWORD: 4
-# DOMAIN-SUFFIX: 660
+# DOMAIN-SUFFIX: 662
 # PROCESS-NAME: 2
 # USER-AGENT: 3
-# TOTAL: 671
+# TOTAL: 673
 DOMAIN,github-cloud.s3.amazonaws.com
 DOMAIN,vsmarketplacebadge.apphb.com
 DOMAIN-SUFFIX,21vbc.com
@@ -665,6 +665,7 @@ DOMAIN-SUFFIX,microsoftonline-p-i.net.cn
 DOMAIN-SUFFIX,microsoftonline-p.cn
 DOMAIN-SUFFIX,microsoftonline-p.net.cn
 DOMAIN-SUFFIX,microsoftonline.cn
+DOMAIN-SUFFIX,microsoftstart.com
 DOMAIN-SUFFIX,microsofttranslator-int.cn
 DOMAIN-SUFFIX,mncmsidlab1.cn
 DOMAIN-SUFFIX,msappproxy.cn
@@ -687,6 +688,7 @@ DOMAIN-SUFFIX,powerappsportals.cn
 DOMAIN-SUFFIX,powerautomate.cn
 DOMAIN-SUFFIX,powerbi.cn
 DOMAIN-SUFFIX,public-trust.com
+DOMAIN-SUFFIX,start.com
 DOMAIN-SUFFIX,trafficmanager.cn
 DOMAIN-SUFFIX,trustcenter.cn
 DOMAIN-SUFFIX,unity3dcloud.cn
