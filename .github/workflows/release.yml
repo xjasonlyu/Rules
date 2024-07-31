@@ -31,7 +31,6 @@ jobs:
         run: |
           python ruleset.py \
             --source https://raw.githubusercontent.com/dler-io/Rules/master/Surge/Surge%203/Provider/Apple.list        \
-            --source https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Apple/Apple.list \
             > Apple.list
 
       - name: Generate China Rule
@@ -52,9 +51,16 @@ jobs:
       - name: Generate Media Rule
         run: |
           python ruleset.py \
-            --source https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Netflix/Netflix.list           \
-            --source https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Disney/Disney.list             \
-            --source https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/TikTok/TikTok.list             \
+            --source https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Netflix/Netflix.list                   \
+            --source https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Disney/Disney.list                     \
+            --source https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/TikTok/TikTok.list                     \
+            --source https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/AmazonPrimeVideo/AmazonPrimeVideo.list \
+            --source https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/YouTube/YouTube.list                   \
+            --source https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/YouTubeMusic/YouTubeMusic.list         \
+            --source https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/HBO/HBO.list                           \
+            --source https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Hulu/Hulu.list                         \
+            --source https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Twitch/Twitch.list                     \
+            --source https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Spotify/Spotify.list                   \
             > Media.list
 
       - name: Generate MediaCN Rule
@@ -63,13 +69,16 @@ jobs:
             --source https://raw.githubusercontent.com/dler-io/Rules/main/Surge/Surge%203/Provider/Media/Bilibili.list               \
             --source https://raw.githubusercontent.com/dler-io/Rules/main/Surge/Surge%203/Provider/Media/IQIYI.list                  \
             --source https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/NetEaseMusic/NetEaseMusic.list \
+            --source https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/TencentVideo/TencentVideo.list \
+            --source https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Youku/Youku.list               \
+            --source https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Sohu/Sohu.list                 \
             > MediaCN.list
 
       - name: Generate Microsoft Rule
         run: |
           python ruleset.py \
-            --source https://raw.githubusercontent.com/dler-io/Rules/master/Surge/Surge%203/Provider/Microsoft.list             \
             --source https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Microsoft/Microsoft.list  \
+            --source https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Teams/Teams.list          \
             > Microsoft.list
 
       - name: Generate PayPal Rule
@@ -94,7 +103,6 @@ jobs:
         run: |
           python ruleset.py \
             --source https://raw.githubusercontent.com/dler-io/Rules/master/Surge/Surge%203/Provider/Telegram.list           \
-            --source https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Telegram/Telegram.list \
             > Telegram.list
 
       - name: Convert Clash Rules
