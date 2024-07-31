@@ -34,6 +34,8 @@ SurgeRuleTypes = (
     # 'FINAL'  # should be ignored
 )
 
+LogicalRuleTypes = ('AND', 'OR', 'NOT')
+
 
 class RuleError(Exception):
     pass
@@ -82,7 +84,9 @@ class RuleSet(OrderedSet):
             text = text[:offset]
 
         rule = [i.strip() for i in text.split(',')]
-        if len(rule) > 4:
+        if rule[0] in LogicalRuleTypes:
+            return ()
+        elif len(rule) > 4:
             raise RuleError(f'invalid rule: {text}')
         elif len(rule) == 4:
             if rule[-1] != 'no-resolve':
