@@ -8174,8 +8174,6 @@ payload:
   - DOMAIN,newloc.map.n.shifen.com
   - DOMAIN,miniapp.bilibili.com
   - DOMAIN,thirdparty.biliapi.com
-  - DOMAIN,o33249.ingest.sentry.io
-  - DOMAIN,openaicom.imgix.net
   - DOMAIN,log.star.ele.me
   - DOMAIN,ad.bn.netease.com
   - DOMAIN,ad.yixin.im

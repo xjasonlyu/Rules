@@ -26,11 +26,20 @@ payload:
   - DOMAIN-SUFFIX,apple.comscoreresearch.com
   - DOMAIN-SUFFIX,apple.news
   - PROCESS-NAME,com.apple.geod
-  - DOMAIN-SUFFIX,apple.com.cn
-  - DOMAIN-SUFFIX,apple-livephotoskit.com
-  - DOMAIN-SUFFIX,applemusic.com
-  - DOMAIN-SUFFIX,appstore.com
-  - DOMAIN-SUFFIX,apzones.com
-  - DOMAIN-SUFFIX,icloud.com.cn
-  - DOMAIN-KEYWORD,apple.com.edgekey.net
   - DOMAIN-KEYWORD,apple-support.akadns.net
+  - DOMAIN-KEYWORD,apple.com.edgekey.net
+  - DOMAIN-KEYWORD,buy.itunes.apple.com
+  - DOMAIN-KEYWORD,smp-device
+  - DOMAIN-KEYWORD,testflight
+  - PROCESS-NAME,CoreLocationAgent
+  - PROCESS-NAME,WeatherWidget
+  - PROCESS-NAME,apsd
+  - PROCESS-NAME,com.apple.Maps
+  - PROCESS-NAME,findmydevice-user-agent
+  - PROCESS-NAME,fmfd
+  - PROCESS-NAME,mapspushd
+  - PROCESS-NAME,netbiosd
+  - PROCESS-NAME,trustd
+  - PROCESS-NAME,Music
+  - PROCESS-NAME,LookupViewService
+  - PROCESS-NAME,TV
