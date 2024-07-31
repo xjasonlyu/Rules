@@ -17,7 +17,7 @@ ClashRuleTypes = (
     # 'GEOIP'  # not supported
     'IP-CIDR', 'IP-CIDR6',
     'SRC-IP-CIDR', 'DST-PORT', 'SRC-PORT',
-    'PROCESS-NAME',
+    # 'PROCESS-NAME',  # deprecate support
     # 'MATCH'  # should be ignored
 )
 
@@ -46,11 +46,14 @@ class RuleSet(OrderedSet):
     def __init__(self,
                  is_clash: bool = False,
                  # params
-                 force_no_resolve: bool = False):
+                 force_no_resolve: bool = False,
+                 include_comments: bool = False,
+                 ):
         super().__init__()
 
         self.is_clash = is_clash
         self.force_no_resolve = force_no_resolve
+        self.include_comments = include_comments
 
         self.types = ClashRuleTypes \
             if is_clash else SurgeRuleTypes
@@ -76,7 +79,7 @@ class RuleSet(OrderedSet):
 
         # include comment
         if text.startswith('#'):
-            return () if self.is_clash else (text,)
+            return () if self.is_clash or not self.include_comments else (text,)
 
         offset = text.find('#')
         if offset > 0:
