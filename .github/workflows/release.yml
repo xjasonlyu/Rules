@@ -90,7 +90,7 @@ jobs:
       - name: Generate Reject Rule
         run: |
           python ruleset.py --force-no-resolve \
-            --source https://raw.githubusercontent.com/dler-io/Rules/master/Surge/Surge%203/Provider/Reject.list \
+            --source https://raw.githubusercontent.com/dler-io/Rules/refs/heads/main/Surge/Surge%203/Provider/AdBlock.list \
             > Reject.list
 
       - name: Generate Steam Rule
