@@ -25,6 +25,8 @@ payload:
   - DOMAIN-SUFFIX,gate.hockeyapp.net
   - DOMAIN-SUFFIX,smartmailcloud.com
   - DOMAIN-KEYWORD,tesla
+  - DOMAIN,api.waqi.info
+  - DOMAIN,aqi.aqicn.org
   - DOMAIN-SUFFIX,2o7.net
   - DOMAIN-SUFFIX,4everProxy.com
   - DOMAIN-SUFFIX,4shared.com
