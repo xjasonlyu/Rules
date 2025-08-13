@@ -4,9 +4,6 @@ payload:
   - DOMAIN-SUFFIX,battle.net
   - DOMAIN-SUFFIX,battlenet.com
   - DOMAIN-SUFFIX,blizzard.com
-  - DOMAIN-KEYWORD,duolingo
-  - DOMAIN-SUFFIX,duolingo.cn
-  - DOMAIN-SUFFIX,duolingo.com
   - DOMAIN-SUFFIX,lin.ee
   - DOMAIN-SUFFIX,line.me
   - DOMAIN-SUFFIX,line.naver.jp
