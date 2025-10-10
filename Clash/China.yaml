@@ -33,6 +33,7 @@ payload:
   - IP-CIDR6,2a0b:b582::/48,no-resolve
   - IP-CIDR6,2a0b:b583::/48,no-resolve
   - IP-CIDR,182.254.116.0/24,no-resolve
+  - DOMAIN,smart.uhdnow.com
   - DOMAIN-SUFFIX,jiedaibao.gs
   - DOMAIN,cdn.lilyemby.com
   - DOMAIN,tx.lilyemby.com
