@@ -14,14 +14,14 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout Repo
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
         with:
           fetch-depth: 0
 
       - name: Setup Python
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@v6
         with:
-          python-version: '3.10'
+          python-version: '3.14'
 
       - name: Install Dependencies
         run: |
@@ -35,8 +35,12 @@ jobs:
 
       - name: Generate China Rule
         run: |
+          # --source https://www.naiixi.com/Extra_CN.list
+          # --source https://www.naiixi.com/Extra_CN_2.list
           python ruleset.py \
             --source https://raw.githubusercontent.com/dler-io/Rules/master/Surge/Surge%203/Provider/Domestic.list \
+            --source https://raw.githubusercontent.com/nexitallyy/ProxyRules/main/Extra_CN_3.list \
+            --source https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaCompanyIp.list \
             --exclude DOMAIN-SUFFIX,cn \
             --exclude DOMAIN-SUFFIX,ip.sb \
             > China.list
