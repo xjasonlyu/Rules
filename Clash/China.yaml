@@ -280,6 +280,7 @@ payload:
   - IP-CIDR,1.255.62.0/24,no-resolve
   - DOMAIN-SUFFIX,gov.cn
   - DOMAIN-SUFFIX,ping0.cc
+  - DOMAIN-SUFFIX,kfzzxcx.com
   - DOMAIN-SUFFIX,durable0762.com
   - DOMAIN-SUFFIX,delirium9599.com
   - DOMAIN-SUFFIX,wrecking7857.com
