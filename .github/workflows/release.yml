@@ -81,7 +81,8 @@ jobs:
       - name: Generate AI Rule
         run: |
           python ruleset.py \
-            --source https://rawstatic.com/nexitallyy/ProxyRules/main/Extra_AI.list  \
+            --source https://raw.githubusercontent.com/nexitallyy/ProxyRules/main/Extra_AI.list  \
+            --source https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/refs/heads/master/Clash/Ruleset/AI.list \
             > AI.list
 
       - name: Generate Microsoft Rule
