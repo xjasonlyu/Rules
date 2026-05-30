@@ -50,6 +50,8 @@ jobs:
           python ruleset.py \
             --source https://raw.githubusercontent.com/dler-io/Rules/master/Surge/Surge%203/Provider/Proxy.list \
             --source DOMAIN-SUFFIX,cdn.jsdelivr.net \
+            --source DOMAIN-SUFFIX,cathaypacific.com \
+            --source DOMAIN-SUFFIX,asiamiles.com \
             > Global.list
 
       - name: Generate Media Rule
