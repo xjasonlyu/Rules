@@ -36,6 +36,15 @@ DOMAIN,cdn.usefathom.com
 DOMAIN-SUFFIX,anthropic.com
 DOMAIN-SUFFIX,claude.ai
 DOMAIN-SUFFIX,claude.com
+DOMAIN-SUFFIX,claudeusercontent.com
+PROCESS-NAME,Claude
+PROCESS-NAME,Claude Helper
+PROCESS-NAME,Claude Helper (GPU)
+PROCESS-NAME,Claude Helper (Plugin)
+PROCESS-NAME,Claude Helper (Renderer)
+PROCESS-NAME,claude
+PROCESS-NAME,Claude Code
+PROCESS-NAME,Claude Code Helper
 DOMAIN,ai.google.dev
 DOMAIN,alkalimakersuite-pa.clients6.google.com
 DOMAIN,generativelanguage.googleapis.com
@@ -65,7 +74,6 @@ DOMAIN,gemini.google.com
 DOMAIN,notebooklm.google.com
 DOMAIN,sydney.bing.com
 DOMAIN-SUFFIX,ai.azure.com
-DOMAIN-SUFFIX,claudeusercontent.com
 DOMAIN-SUFFIX,copilot.cloud.microsoft
 DOMAIN-SUFFIX,copilot.microsoft.com
 DOMAIN-SUFFIX,cursor.com

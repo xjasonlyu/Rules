@@ -738,3 +738,5 @@ payload:
   - IP-CIDR,174.37.0.0/16,no-resolve
   - IP-CIDR,208.43.0.0/16,no-resolve
   - DOMAIN-SUFFIX,cdn.jsdelivr.net
+  - DOMAIN-SUFFIX,cathaypacific.com
+  - DOMAIN-SUFFIX,asiamiles.com

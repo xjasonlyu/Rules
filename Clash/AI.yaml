@@ -37,6 +37,7 @@ payload:
   - DOMAIN-SUFFIX,anthropic.com
   - DOMAIN-SUFFIX,claude.ai
   - DOMAIN-SUFFIX,claude.com
+  - DOMAIN-SUFFIX,claudeusercontent.com
   - DOMAIN,ai.google.dev
   - DOMAIN,alkalimakersuite-pa.clients6.google.com
   - DOMAIN,generativelanguage.googleapis.com
@@ -66,7 +67,6 @@ payload:
   - DOMAIN,notebooklm.google.com
   - DOMAIN,sydney.bing.com
   - DOMAIN-SUFFIX,ai.azure.com
-  - DOMAIN-SUFFIX,claudeusercontent.com
   - DOMAIN-SUFFIX,copilot.cloud.microsoft
   - DOMAIN-SUFFIX,copilot.microsoft.com
   - DOMAIN-SUFFIX,cursor.com
