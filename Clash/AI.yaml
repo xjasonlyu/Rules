@@ -1,82 +1,50 @@
 payload:
-  - DOMAIN-SUFFIX,perplexity.ai
-  - DOMAIN-SUFFIX,pplx.ai
-  - DOMAIN,browser-intake-datadoghq.com
-  - DOMAIN,chat.openai.com.cdn.cloudflare.net
-  - DOMAIN,openai-api.arkoselabs.com
-  - DOMAIN,openaicom-api-bdcpf8c6d2e9atf6.z01.azurefd.net
-  - DOMAIN,openaicomproductionae4b.blob.core.windows.net
-  - DOMAIN,production-openaicom-storage.azureedge.net
-  - DOMAIN,static.cloudflareinsights.com
+  - DOMAIN,ai.google.dev
+  - DOMAIN,aida.googleapis.com
+  - DOMAIN,aisandbox-pa.googleapis.com
+  - DOMAIN,alkalicore-pa.clients6.google.com
+  - DOMAIN,antigravity-unleash.goog
+  - DOMAIN,antigravity.google
+  - DOMAIN,api.github.com
+  - DOMAIN,api.jetbrains.ai
+  - DOMAIN,daily-cloudcode-pa.googleapis.com
+  - DOMAIN,file.oaiusercontent.com
+  - DOMAIN,gateway.ai.cloudflare.com
+  - DOMAIN,jules.google.com
+  - DOMAIN,openrouter.ai
+  - DOMAIN,robinfrontend-pa.googleapis.com
   - DOMAIN-SUFFIX,ai.com
-  - DOMAIN-SUFFIX,algolia.net
-  - DOMAIN-SUFFIX,api.statsig.com
-  - DOMAIN-SUFFIX,auth0.com
-  - DOMAIN-SUFFIX,chatgpt.com
-  - DOMAIN-SUFFIX,chatgpt.livekit.cloud
-  - DOMAIN-SUFFIX,client-api.arkoselabs.com
-  - DOMAIN-SUFFIX,events.statsigapi.net
-  - DOMAIN-SUFFIX,featuregates.org
-  - DOMAIN-SUFFIX,host.livekit.cloud
-  - DOMAIN-SUFFIX,identrust.com
-  - DOMAIN-SUFFIX,intercom.io
-  - DOMAIN-SUFFIX,intercomcdn.com
-  - DOMAIN-SUFFIX,launchdarkly.com
-  - DOMAIN-SUFFIX,oaistatic.com
-  - DOMAIN-SUFFIX,oaiusercontent.com
-  - DOMAIN-SUFFIX,observeit.net
-  - DOMAIN-SUFFIX,openai.com
-  - DOMAIN-SUFFIX,openaiapi-site.azureedge.net
-  - DOMAIN-SUFFIX,openaicom.imgix.net
-  - DOMAIN-SUFFIX,segment.io
-  - DOMAIN-SUFFIX,turn.livekit.cloud
-  - DOMAIN-KEYWORD,openai
-  - IP-CIDR,24.199.123.28/32,no-resolve
-  - IP-CIDR,64.23.132.171/32,no-resolve
-  - DOMAIN,cdn.usefathom.com
+  - DOMAIN-SUFFIX,aistudio.google.com
   - DOMAIN-SUFFIX,anthropic.com
+  - DOMAIN-SUFFIX,bard.google.com
+  - DOMAIN-SUFFIX,chat.com
+  - DOMAIN-SUFFIX,chatgpt.com
   - DOMAIN-SUFFIX,claude.ai
   - DOMAIN-SUFFIX,claude.com
-  - DOMAIN-SUFFIX,claudeusercontent.com
-  - DOMAIN,ai.google.dev
-  - DOMAIN,alkalimakersuite-pa.clients6.google.com
-  - DOMAIN,generativelanguage.googleapis.com
-  - DOMAIN,makersuite.google.com
-  - DOMAIN-SUFFIX,bard.google.com
+  - DOMAIN-SUFFIX,clipdrop.co
+  - DOMAIN-SUFFIX,cloudcode-pa.googleapis.com
   - DOMAIN-SUFFIX,deepmind.com
   - DOMAIN-SUFFIX,deepmind.google
+  - DOMAIN-SUFFIX,dify.ai
+  - DOMAIN-SUFFIX,g.ai
+  - DOMAIN-SUFFIX,geller-pa.googleapis.com
+  - DOMAIN-SUFFIX,gemini.google
   - DOMAIN-SUFFIX,gemini.google.com
   - DOMAIN-SUFFIX,generativeai.google
-  - DOMAIN-SUFFIX,proactivebackend-pa.googleapis.com
-  - DOMAIN-SUFFIX,aisandbox-pa.googleapis.com
-  - DOMAIN-SUFFIX,robinfrontend-pa.googleapis.com
-  - DOMAIN,copilot.microsoft.com
-  - DOMAIN-SUFFIX,chorus.sh
-  - DOMAIN-SUFFIX,x.ai
+  - DOMAIN-SUFFIX,generativelanguage.googleapis.com
   - DOMAIN-SUFFIX,grok.com
-  - DOMAIN-KEYWORD,anthropic
-  - DOMAIN-KEYWORD,claude
-  - DOMAIN,aistudio.google.com
-  - DOMAIN,api.githubcopilot.com
-  - DOMAIN,api.groq.com
-  - DOMAIN,api.together.xyz
-  - DOMAIN,bard.google.com
-  - DOMAIN,console.groq.com
-  - DOMAIN,copilot-proxy.githubusercontent.com
-  - DOMAIN,gemini.google.com
-  - DOMAIN,notebooklm.google.com
-  - DOMAIN,sydney.bing.com
-  - DOMAIN-SUFFIX,ai.azure.com
-  - DOMAIN-SUFFIX,copilot.cloud.microsoft
-  - DOMAIN-SUFFIX,copilot.microsoft.com
-  - DOMAIN-SUFFIX,cursor.com
-  - DOMAIN-SUFFIX,cursor.sh
-  - DOMAIN-SUFFIX,grazie.ai
-  - DOMAIN-SUFFIX,grazie.aws.intellij.net
-  - DOMAIN-SUFFIX,jetbrains.ai
+  - DOMAIN-SUFFIX,groq.com
+  - DOMAIN-SUFFIX,jasper.ai
   - DOMAIN-SUFFIX,makersuite.google.com
   - DOMAIN-SUFFIX,meta.ai
-  - DOMAIN-SUFFIX,mistral.ai
   - DOMAIN-SUFFIX,notebooklm.google
   - DOMAIN-SUFFIX,notebooklm.google.com
+  - DOMAIN-SUFFIX,oaistatic.com
+  - DOMAIN-SUFFIX,openart.ai
+  - DOMAIN-SUFFIX,perplexity.ai
+  - DOMAIN-SUFFIX,poe.com
+  - DOMAIN-SUFFIX,proactivebackend-pa.googleapis.com
   - DOMAIN-SUFFIX,sora.com
+  - DOMAIN-SUFFIX,x.ai
+  - DOMAIN-KEYWORD,alkalimakersuite-pa.clients6.google.com
+  - DOMAIN-KEYWORD,openai
