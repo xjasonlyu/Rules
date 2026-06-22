@@ -38,7 +38,7 @@ jobs:
           # --source https://www.naiixi.com/Extra_CN.list
           # --source https://www.naiixi.com/Extra_CN_2.list
           python ruleset.py \
-            --source https://raw.githubusercontent.com/dler-io/Rules/master/Surge/Surge%203/Provider/Domestic.list \
+            --source https://raw.githubusercontent.com/Coldvvater/Mononoke/refs/heads/master/Surge/Rules/ChinaDomain.list \
             --source https://raw.githubusercontent.com/nexitallyy/ProxyRules/main/Extra_CN_3.list \
             --source https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaCompanyIp.list \
             --exclude DOMAIN-SUFFIX,cn \
@@ -48,8 +48,8 @@ jobs:
       - name: Generate Global Rule
         run: |
           python ruleset.py \
-            --source https://raw.githubusercontent.com/dler-io/Rules/master/Surge/Surge%203/Provider/Proxy.list \
-            --source DOMAIN-SUFFIX,cdn.jsdelivr.net \
+            --source https://raw.githubusercontent.com/Coldvvater/Mononoke/refs/heads/master/Surge/Rules/Proxy.list \
+            --source https://raw.githubusercontent.com/Coldvvater/Mononoke/refs/heads/master/Surge/Rules/ProxyGFW.list \
             --source DOMAIN-SUFFIX,cathaypacific.com \
             --source DOMAIN-SUFFIX,asiamiles.com \
             > Global.list
