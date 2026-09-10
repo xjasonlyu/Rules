@@ -25,6 +25,7 @@ payload:
   - DOMAIN-SUFFIX,claude.com
   - DOMAIN-SUFFIX,clipdrop.co
   - DOMAIN-SUFFIX,cloudcode-pa.googleapis.com
+  - DOMAIN-SUFFIX,cursor.sh
   - DOMAIN-SUFFIX,deepmind.com
   - DOMAIN-SUFFIX,deepmind.google
   - DOMAIN-SUFFIX,dify.ai
