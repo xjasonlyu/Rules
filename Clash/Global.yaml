@@ -228,6 +228,7 @@ payload:
   - DOMAIN-SUFFIX,blubrry.com
   - DOMAIN-SUFFIX,bnbstatic.com
   - DOMAIN-SUFFIX,box.com
+  - DOMAIN-SUFFIX,boxcloud.com
   - DOMAIN-SUFFIX,brave.com
   - DOMAIN-SUFFIX,brew.sh
   - DOMAIN-SUFFIX,broadcom.com
