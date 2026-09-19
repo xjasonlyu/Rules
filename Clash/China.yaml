@@ -665,6 +665,7 @@ payload:
   - DOMAIN-SUFFIX,realme.com
   - DOMAIN-SUFFIX,realmebbs.com
   - DOMAIN-SUFFIX,realmemobile.com
+  - DOMAIN-SUFFIX,rednotecdn.com
   - DOMAIN-SUFFIX,roblox.cn
   - DOMAIN-SUFFIX,robloxdev.cn
   - DOMAIN-SUFFIX,ronghub.com
@@ -865,6 +866,7 @@ payload:
   - DOMAIN-SUFFIX,zuoyebang.com
   - DOMAIN-SUFFIX,zybang.com
   - DOMAIN-SUFFIX,ping0.cc
+  - DOMAIN-SUFFIX,iqsjp.com
   - DOMAIN-SUFFIX,kfzzxcx.com
   - DOMAIN-SUFFIX,durable0762.com
   - DOMAIN-SUFFIX,delirium9599.com

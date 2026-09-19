@@ -664,6 +664,7 @@ DOMAIN-SUFFIX,qzone.com
 DOMAIN-SUFFIX,realme.com
 DOMAIN-SUFFIX,realmebbs.com
 DOMAIN-SUFFIX,realmemobile.com
+DOMAIN-SUFFIX,rednotecdn.com
 DOMAIN-SUFFIX,roblox.cn
 DOMAIN-SUFFIX,robloxdev.cn
 DOMAIN-SUFFIX,ronghub.com
@@ -867,6 +868,7 @@ USER-AGENT,%E4%BC%98%E9%85%B7*
 USER-AGENT,%E6%89%8B%E6%9C%BA%E6%B7%98%E5%AE%9D*
 USER-AGENT,TeslaMap
 DOMAIN-SUFFIX,ping0.cc
+DOMAIN-SUFFIX,iqsjp.com
 DOMAIN-SUFFIX,kfzzxcx.com
 DOMAIN-SUFFIX,durable0762.com
 DOMAIN-SUFFIX,delirium9599.com
