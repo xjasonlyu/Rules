@@ -1,20 +1,15 @@
-USER-AGENT,bili*
 DOMAIN-SUFFIX,acg.tv
 DOMAIN-SUFFIX,acgvideo.com
 DOMAIN-SUFFIX,b23.tv
+DOMAIN-SUFFIX,biliapi.com
+DOMAIN-SUFFIX,biliapi.net
 DOMAIN-SUFFIX,bilibili.com
 DOMAIN-SUFFIX,bilibili.tv
-DOMAIN-SUFFIX,biliapi.net
-DOMAIN-SUFFIX,biliapi.com
 DOMAIN-SUFFIX,bilivideo.com
 DOMAIN-SUFFIX,hdslb.com
 DOMAIN,upos-hz-mirrorakam.akamaized.net
-// Hong Kong,Macau
+USER-AGENT,bili*
 USER-AGENT,bili-inter*
-DOMAIN,apiintl.biliapi.net
-USER-AGENT,*QIYI*
-USER-AGENT,iQiYi*
-DOMAIN-SUFFIX,iqiyi.com
 DOMAIN-SUFFIX,71.am
 DOMAIN-SUFFIX,71.am.com
 DOMAIN-SUFFIX,71edge.com
@@ -29,6 +24,7 @@ DOMAIN-SUFFIX,gitv.cn
 DOMAIN-SUFFIX,gitv.tv
 DOMAIN-SUFFIX,ibkstore.com
 DOMAIN-SUFFIX,iq.com
+DOMAIN-SUFFIX,iqiyi.com
 DOMAIN-SUFFIX,iqiyi.demo.uwp
 DOMAIN-SUFFIX,iqiyiedge.com
 DOMAIN-SUFFIX,iqiyiedge.net
@@ -48,6 +44,8 @@ DOMAIN-SUFFIX,qiyipic.com
 DOMAIN-SUFFIX,qy.com
 DOMAIN-SUFFIX,qy.net
 DOMAIN-SUFFIX,suike.cn
+USER-AGENT,*QIYI*
+USER-AGENT,iQiYi*
 DOMAIN,netease.ugcvideoss.ourdvs.com
 DOMAIN-SUFFIX,163yun.com
 DOMAIN-SUFFIX,api.iplay.163.com

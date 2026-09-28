@@ -1,15 +1,15 @@
 payload:
-  - DOMAIN-KEYWORD,apple.com.akadns.net
-  - DOMAIN-KEYWORD,icloud.com.akadns.net
   - DOMAIN-SUFFIX,aaplimg.com
-  - DOMAIN-SUFFIX,apple.co
-  - DOMAIN-SUFFIX,apple.com
   - DOMAIN-SUFFIX,apple-cloudkit.com
   - DOMAIN-SUFFIX,apple-mapkit.com
+  - DOMAIN-SUFFIX,apple.co
+  - DOMAIN-SUFFIX,apple.com
+  - DOMAIN-SUFFIX,apple.com.akadns.net
   - DOMAIN-SUFFIX,appsto.re
   - DOMAIN-SUFFIX,cdn-apple.com
-  - DOMAIN-SUFFIX,icloud.com
   - DOMAIN-SUFFIX,icloud-content.com
+  - DOMAIN-SUFFIX,icloud.com
+  - DOMAIN-SUFFIX,icloud.com.akadns.net
   - DOMAIN-SUFFIX,itunes.com
   - DOMAIN-SUFFIX,me.com
   - DOMAIN-SUFFIX,mzstatic.com
