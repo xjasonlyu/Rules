@@ -32,6 +32,7 @@ payload:
   - IP-CIDR,222.186.61.95/32,no-resolve
   - IP-CIDR,222.186.61.96/32,no-resolve
   - IP-CIDR,222.186.61.97/32,no-resolve
+  - DOMAIN,dm.wo.com.cn
   - IP-CIDR,106.75.231.48/32,no-resolve
   - IP-CIDR,119.4.249.166/32,no-resolve
   - IP-CIDR,220.196.52.141/32,no-resolve
