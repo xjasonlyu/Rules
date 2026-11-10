@@ -15,6 +15,7 @@ DOMAIN-SUFFIX,valve.net
 DOMAIN-SUFFIX,valvesoftware.com
 DOMAIN,steammobile.akamaized.net
 DOMAIN,steampipe.akamaized.net
+DOMAIN,steamvideo-a.akamaihd.net
 IP-CIDR,45.121.184.0/24,no-resolve
 IP-CIDR,103.10.124.0/23,no-resolve
 IP-CIDR,103.28.54.0/24,no-resolve
